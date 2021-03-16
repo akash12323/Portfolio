@@ -6,14 +6,11 @@ body{
 a{
     margin-right: 30px;
 }
-.container-fluid{
-    margin-right: 50px;
-}
 nav a i{
     font-size: 1.6rem;
 }
 nav div div{
-    margin-left: 100px;
+    margin-left: 50px;
 }
 @media screen and (max-width:990px){
     nav div div{
@@ -125,7 +122,10 @@ nav div div{
     filter: grayscale(0.5);
     opacity: 0.3;
 }
-#myworks,#about div{
+#myworks,#about {
+    background-color: #e9ecef;
+    padding-top: 4%;
+    padding-bottom: 3%;
     text-align: center;
 }
 #myworks,#about div p{
