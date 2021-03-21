@@ -180,7 +180,7 @@ nav div div{
     margin-bottom: 15px;
     width: 90%;
     height: 7px;
-    transition: all 3s;
+    animation: slider 1s 1 linear;
 }
 #kotlin, #firebase{
     background: linear-gradient(to right,  #adb5bd 0%,#adb5bd 85%,#e9ecef 85%,#e9ecef 100%);
@@ -202,6 +202,14 @@ nav div div{
 }
 #js, #jquery{
     background: linear-gradient(to right,  #adb5bd 0%,#adb5bd 75%,#e9ecef 75%,#e9ecef 100%);
+}
+@keyframes slider{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
 }
 
 
